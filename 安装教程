@@ -21,4 +21,9 @@
 
 4. 环境配置
   
-  教程：https://blog.csdn.net/qq_32452335/article/details/106399438
+  a. 教程：https://blog.csdn.net/qq_32452335/article/details/106399438
+  
+  b. 在Anaconda中创建Python3.9的环境：https://blog.csdn.net/weixin_51713776/article/details/109501111
+  
+  c. Conda安装包报错：The current user does not have write permissions to the target environment(当前用户没有写入权限）
+  https://blog.csdn.net/weixin_43208295/article/details/105704440
