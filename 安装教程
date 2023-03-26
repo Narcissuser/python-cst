@@ -1,0 +1,21 @@
+1. 安装Pycharm 2022.3.3
+
+  （我安装时间为2023.3.26，此时最新版为2022.3.3）
+  Pycharm下载地址：https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows
+  
+  Pycharm和谐文件下载地址：
+  链接: https://pan.baidu.com/s/1h8lNzbX4oO9CnBOVcQmXfw
+  提取码: ngck
+  
+2. 安装Python 3.9.7
+
+  （CST可以支持3.6、3.7、3.8、3.9版本的Python）
+  Python下载地址：https://www.python.org/downloads/windows/
+  
+  Python安装教程：https://blog.csdn.net/benben513624/article/details/80066136
+  最后一步Disable path length limit点一下
+
+3. 安装Anaconda
+
+  Anaconda下载地址：https://www.anaconda.com/products/individual
+  
