@@ -12,3 +12,6 @@ https://code.visualstudio.com/
   e. 在VScode选择解释器：E:\Anaconda\envs\py39\python.exe
   f. 在系统环境设置PYTHONPATH
   g. 测试VScode与CST连接成功
+
+4. VScode有用的小插件
+  a. 代码格式化工具yapf: shift+alt+F
