@@ -15,9 +15,11 @@
   Python安装教程：https://blog.csdn.net/benben513624/article/details/80066136
   最后一步Disable path length limit点一下
 
-3. 安装Anaconda3-2023.03-Windows-x86_64.exe
+3. 安装Anaconda3-2021.04-Windows-x86_64.exe对应Python3.9
 
-  Anaconda下载地址：https://www.anaconda.com/products/individual
+  Anaconda与Python对应关系https://docs.anaconda.com/anaconda/packages/oldpkglists/
+
+  Anaconda下载地址：https://repo.anaconda.com/archive/
 
 4. 环境配置
   
