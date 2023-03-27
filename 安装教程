@@ -1,31 +1,14 @@
-1. 安装Pycharm 2022.3.3
-
-  （我安装时间为2023.3.26，此时最新版为2022.3.3）
-  Pycharm下载地址：https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows
+1. 安装Anaconda最新版
+https://www.anaconda.com/
   
-  Pycharm和谐文件下载地址：
-  链接: https://pan.baidu.com/s/1h8lNzbX4oO9CnBOVcQmXfw
-  提取码: ngck
-  
-2. 安装Python 3.9.7
+2. 安装VScode并安装Python扩展
+https://code.visualstudio.com/
 
-  （CST可以支持3.6、3.7、3.8、3.9版本的Python）
-  Python下载地址：https://www.python.org/downloads/windows/
-  
-  Python安装教程：https://blog.csdn.net/benben513624/article/details/80066136
-  最后一步Disable path length limit点一下
-
-3. 安装Anaconda3-2021.04-Windows-x86_64.exe对应Python3.9
-
-  Anaconda与Python对应关系https://docs.anaconda.com/anaconda/packages/oldpkglists/
-
-  Anaconda下载地址：https://repo.anaconda.com/archive/
-
-4. 环境配置
-  
-  a. 教程：https://blog.csdn.net/qq_32452335/article/details/106399438
-  
-  b. 在Anaconda中创建Python3.9的环境：https://blog.csdn.net/weixin_51713776/article/details/109501111
-  
-  c. Conda安装包报错：The current user does not have write permissions to the target environment(当前用户没有写入权限）
-  https://blog.csdn.net/weixin_43208295/article/details/105704440
+3. 在VScode终端进行配置
+  a. conda update conda
+  b. conda create -n py39 python=3.9
+  c. conda activate py39
+  d. 重启VScode
+  e. 在VScode选择解释器：E:\Anaconda\envs\py39\python.exe
+  f. 在系统环境设置PYTHONPATH
+  g. 测试VScode与CST连接成功
