@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2023.0 - Sep 12 2022 - ACIS 32.0.1 -
+[Author]
+GaoSheng
+[Mesh Cells]
+
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Unavailable
+[Modeler Unique ID]
+5:towlayerpatch.cst?07a3b2f51155f206f3320146e9ec56f2?13245:numberofparameters=18:port=1>mode=1>zre=0>zim=0:::feed1posy?feed1posx?feed1slot_l?feed1slot_w?feed1_extend?feed1w?patch2_y?patch2_x?patch1_y?patch1_x?layer7_hight?layer6_hight?layer5_hight?layer4_hight?layer3_hight?layer2_hight?layer1_hight?size
+[Comment]

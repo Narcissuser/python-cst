@@ -1,0 +1,110 @@
+{
+    "parameters": [
+        {
+            "expr": "18",
+            "name": "size",
+            "value": "18"
+        },
+        {
+            "expr": "0.002",
+            "name": "layer1_Hight",
+            "value": "0.002"
+        },
+        {
+            "expr": "0.813",
+            "name": "layer2_Hight",
+            "value": "0.813"
+        },
+        {
+            "expr": "0.002",
+            "name": "layer3_Hight",
+            "value": "0.002"
+        },
+        {
+            "expr": "2",
+            "name": "layer4_Hight",
+            "value": "2"
+        },
+        {
+            "expr": "0.002",
+            "name": "layer5_Hight",
+            "value": "0.002"
+        },
+        {
+            "expr": "0.813",
+            "name": "layer6_Hight",
+            "value": "0.813"
+        },
+        {
+            "expr": "0.002",
+            "name": "layer7_Hight",
+            "value": "0.002"
+        },
+        {
+            "expr": "7.8585695667088",
+            "name": "Patch1_x",
+            "value": "7.8585695667088"
+        },
+        {
+            "expr": "Patch1_x",
+            "name": "Patch1_y",
+            "value": "7.8585695667088"
+        },
+        {
+            "expr": "10",
+            "name": "Patch2_x",
+            "value": "10"
+        },
+        {
+            "expr": "Patch2_x",
+            "name": "Patch2_y",
+            "value": "10"
+        },
+        {
+            "expr": "1.78",
+            "name": "feed1w",
+            "value": "1.78"
+        },
+        {
+            "expr": "2.3442578166024",
+            "name": "feed1_extend",
+            "value": "2.3442578166024"
+        },
+        {
+            "expr": "1",
+            "name": "feed1slot_w",
+            "value": "1"
+        },
+        {
+            "expr": "6.7744882398659",
+            "name": "feed1slot_l",
+            "value": "6.7744882398659"
+        },
+        {
+            "expr": "0.90940738757907",
+            "name": "feed1posx",
+            "value": "0.90940738757907"
+        },
+        {
+            "expr": "-0.094201667379551",
+            "name": "feed1posy",
+            "value": "-0.094201667379551"
+        },
+        {
+            "expr": "0.813",
+            "name": "Dielectric4003_Hight",
+            "value": "0.813"
+        },
+        {
+            "expr": "0.002",
+            "name": "Copper_Hight",
+            "value": "0.002"
+        },
+        {
+            "expr": "0",
+            "name": "datanumber",
+            "value": "0"
+        }
+    ],
+    "version": 1
+}

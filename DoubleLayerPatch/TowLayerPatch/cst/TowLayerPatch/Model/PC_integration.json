@@ -1,0 +1,104 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "size",
+         "type": "float",
+         "value": 18.0
+      },
+      {
+         "name": "layer1_Hight",
+         "type": "float",
+         "value": 0.002
+      },
+      {
+         "name": "layer2_Hight",
+         "type": "float",
+         "value": 0.813
+      },
+      {
+         "name": "layer3_Hight",
+         "type": "float",
+         "value": 0.002
+      },
+      {
+         "name": "layer4_Hight",
+         "type": "float",
+         "value": 2.0
+      },
+      {
+         "name": "layer5_Hight",
+         "type": "float",
+         "value": 0.002
+      },
+      {
+         "name": "layer6_Hight",
+         "type": "float",
+         "value": 0.813
+      },
+      {
+         "name": "layer7_Hight",
+         "type": "float",
+         "value": 0.002
+      },
+      {
+         "name": "Patch1_x",
+         "type": "float",
+         "value": 7.8585695667088
+      },
+      {
+         "name": "Patch2_x",
+         "type": "float",
+         "value": 10.0
+      },
+      {
+         "name": "feed1w",
+         "type": "float",
+         "value": 1.78
+      },
+      {
+         "name": "feed1_extend",
+         "type": "float",
+         "value": 2.3442578166024
+      },
+      {
+         "name": "feed1slot_w",
+         "type": "float",
+         "value": 1.0
+      },
+      {
+         "name": "feed1slot_l",
+         "type": "float",
+         "value": 6.7744882398659
+      },
+      {
+         "name": "feed1posx",
+         "type": "float",
+         "value": 0.90940738757907
+      },
+      {
+         "name": "feed1posy",
+         "type": "float",
+         "value": -0.094201667379551
+      },
+      {
+         "name": "Dielectric4003_Hight",
+         "type": "float",
+         "value": 0.813
+      },
+      {
+         "name": "Copper_Hight",
+         "type": "float",
+         "value": 0.002
+      },
+      {
+         "name": "datanumber",
+         "type": "float",
+         "value": 0.0
+      }
+   ],
+   "outputVariables": []
+}

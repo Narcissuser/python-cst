@@ -11,34 +11,34 @@ cst_project = '\element'  # CST project
 cst_project_path = cst_path + cst_project + '.cst'
 cst_result_folder = cst_path + cst_project + '\Result'
 
-# # 删除已有结果
-# try:
-#     shutil.rmtree(cst_result_folder)
-# except OSError as e:
-#     print(e)
-# else:
-#     print("The results directory is deleted successfully")
+# 删除已有结果
+try:
+    shutil.rmtree(cst_result_folder)
+except OSError as e:
+    print(e)
+else:
+    print("The results directory is deleted successfully")
 
-# # 打开CST文件
-# mycst = cst.interface.DesignEnvironment()
-# mycst1 = cst.interface.DesignEnvironment.open_project(mycst, cst_project_path)
+# 打开CST文件
+mycst = cst.interface.DesignEnvironment()
+mycst1 = cst.interface.DesignEnvironment.open_project(mycst, cst_project_path)
 
-# # 更新参数
-# para_update = 'Sub Main() \nStoreParameter("patchone_width", ' + str(
-#     9
-# ) + ') \nStoreParameter("patchtwo_width", ' + str(
-#     11
-# ) + ') \nRebuildOnParametricChange(bfullRebuild,bShowErrorMsgBox) \nEnd Sub'
+# 更新参数
+para_update = 'Sub Main() \nStoreParameter("patchone_width", ' + str(
+    9
+) + ') \nStoreParameter("patchtwo_width", ' + str(
+    11
+) + ') \nRebuildOnParametricChange(bfullRebuild,bShowErrorMsgBox) \nEnd Sub'
 
-# mycst1.schematic.execute_vba_code(para_update, timeout=None)
+mycst1.schematic.execute_vba_code(para_update, timeout=None)
 
-# # 运行程序
-# mycst1.modeler.run_solver()
+# 运行程序
+mycst1.modeler.run_solver()
 
-# #关闭CST文件
-# cst.interface.DesignEnvironment.close(mycst)
+#关闭CST文件
+cst.interface.DesignEnvironment.close(mycst)
 
-# 获取结果
+#获取结果
 s11_path = r'1D Results\S-Parameters\S1,1'
 project = cst.results.ProjectFile(cst_project_path, allow_interactive=True)
 s11 = project.get_3d().get_result_item(s11_path, 1)
